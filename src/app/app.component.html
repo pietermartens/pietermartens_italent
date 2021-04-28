@@ -1,0 +1,110 @@
+<div class="desktop_items">
+  <div class="map-with-text">
+    <img id="recycle" src="assets\images\recycle_bin.png" (click)="changeColorBin()" (dblclick)="openBin()">
+    <p id="recycleText">Recycle Bin</p>
+  </div>
+  <div class="map-with-text" (click)="changeColorIE()" (dblclick)="openIE()">
+    <img id="Iexplorer" src="assets\images\Internet_explorer.png" >
+    <p id="textIE">Internet<br/> Explorer</p>
+  </div>
+  <div  class="map-with-text" (click)="changeColorMap1()" (dblclick)="openMap1()">
+    <img src="assets\images\map.png">
+    <p id="mapResume">Resume</p>
+  </div>
+  <div class="map-with-text" (click)="changeColorMap2()" (dblclick)="openMap2()">
+    <img src="assets\images\map.png" >
+    <p id="mapSelection">Selectie<br>activiteiten</p>
+  </div>
+  <div class="map-with-text" (click)="changeColorMap3()" (dblclick)="openMap3()">
+    <img src="assets\images\word_icon.jpg" >
+    <p id="mapReflectie">Eindreflectie.docx</p>
+  </div>
+</div>
+
+<div [hidden]="openResume" class="mapResume">
+  <div>
+    <img id="resumeMap" src="assets\images\ResumeMap.png">
+    <div class="wordDiv" (click)="changeColorWord()" (dblclick)="openResumeWord()">
+      <img id="wordImage" src="assets\images\word_icon.jpg">
+      <p id="resumeText" >CV_PieterMartens.doc</p>
+    </div>
+    <button id="closeResume" (click)="closeResume()"></button>
+  </div>
+</div>
+
+<div [hidden]="openResumeInWord" class="resumeInWord">
+  <div id="wordResume">
+    <img class="word" src="assets\images\word.png">
+    <div id="resume">
+      <img id="resumeImage" src="assets\images\Resume.png">
+    </div>
+    <button id="closeResumeWord" (click)="closeResumeWord()"></button>
+  </div>
+</div>
+
+<div [hidden]="openSelection" class="mapResume">
+  <div>
+    <img src="assets\images\selectieActiviteiten.png">
+    <div id="berlijn" (click)="changeColorBerlin()" (dblclick)="openBerlin()">
+      <img src="assets\images\word_icon.jpg" >
+      <p id="berlijnText">Verslag_Berlijn.docx</p>
+    </div>
+    <div id="cyber" (click)="changeColorNote()" (dblclick)="openNote()">
+      <img src="assets\images\notepad.jpg">
+      <p id="cyberText">Verslag_CyberSecurity.txt</p>
+    </div>
+    <div id="gluo" (click)="changeColorGluo()" (dblclick)="openGluo()">
+      <img src="assets\images\word_icon.jpg">
+      <p id="gluoText">Seminarie_gluo.docx</p>
+    </div>
+    <button id="closeSelection" (click)="closeSelection()"></button>
+  </div>
+</div>
+
+<div [hidden]="openCyber" class="mapResume">
+  <img id="notePad" src="assets\images\notepadOpen.jpg">
+  <div id="whitespace">
+    <iframe src="assets\text\whitespace.txt"></iframe>
+  </div>
+  <button id="closeCyber" (click)="closeCyber()">Button</button>
+</div>
+
+<div [hidden]="openBerlinInWord" class="berlinInWord">
+  <div id="wordBerlin">
+    <img class="word" src="assets\images\word.png">
+    <div class="selectionInWord">
+      <img src="assets\images\berlijn.png"/>
+    </div>
+    <button id="closeBerlinWord" (click)="closeBerlin()"></button>
+  </div>
+</div>
+
+<div [hidden]="openGluoInWord" class="berlinInWord">
+  <div id="wordGluo">
+    <img class="word" src="assets\images\word.png">
+    <div class="selectionInWord">
+      <img src="assets\images\gluoVerslag.png"/>
+    </div>
+    <button id="closeGluoWord" (click)="closeGluo()"></button>
+  </div>
+</div>
+
+<div [hidden]="openEindReflectie" class="berlinInWord">
+  <div id="reflectieInWord">
+    <img class="word" src="assets\images\word.png">
+    <div class="selectionInWord">
+      <img src="assets\images\eindreflectie.png">
+    </div>
+    <button id="closeReflectieWord" (click)="closeReflection()"></button>
+  </div>
+</div>
+
+<div [hidden]="isDisplay" class="start_menu">
+  <img class="startmenu" src="assets\images\start_menu.png">
+</div>
+
+<div>
+  <img class="taskbar" src="assets\images\XP_taskbar.jpg">
+  <img id="startButton" class="start" [src]="imgSrc" (mouseover)="onMouseOver()" (mouseout)="onMouseOut()" (click)="toggleStart()">
+  <img class="rightTaskbar" src="assets\images\Right_side_taskbar.jpg">
+</div>

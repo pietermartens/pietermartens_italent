@@ -1,0 +1,347 @@
+.taskbar {
+  position:fixed;
+  bottom:0px;
+  width: 100%;
+  height: 4%;
+}
+
+.startmenu {
+  position: fixed;
+  width: 27%;
+  bottom: 4%;
+  left: 0;
+}
+
+.rightTaskbar {
+  position: fixed;
+  bottom:0px;
+  margin-left: 85%;
+  height: 4%;
+  width: 15%;
+ }
+
+.start {
+  position: fixed;
+  bottom:0px;
+  margin-left: -0.5%;
+  height: 4%;
+}
+
+.start:hover {
+  cursor: pointer;
+}
+
+.map-with-text {
+  text-align: center;
+  margin-right: 92%;
+  font-size: 120%;
+  width: 11%;
+}
+
+.map-with-text img {
+  width: 70%;
+  margin-left: 20%;
+}
+
+.map-with-text p {
+  width: 120%;
+}
+
+.map-with-text:hover {
+  cursor: pointer;
+}
+
+p {
+  font-family: Arial;
+  -webkit-font-smoothing: antialiased;
+  color: white;
+  margin-top: 0.3%;
+}
+
+.desktop_items {
+  position: fixed;
+  margin-top: 2%;
+}
+
+.mapResume {
+  position: fixed;
+  top: 3%;
+  left: 20%;
+}
+
+.resumeFolder {
+  margin-top: -55%;
+  margin-left: -30%;
+  text-align: center;
+}
+
+.resumeFolder:hover {
+  cursor: pointer;
+}
+
+.resumeFolder p {
+  color: black;
+}
+
+.resumeInWord {
+  position: fixed;
+  margin-left: -10%;
+}
+
+#Iexplorer {
+  width: 70%;
+}
+
+#recycle {
+  width: 50%;
+}
+
+#startButton {
+  width: 120px;
+}
+
+#rightTask {
+  margin-left: 89.5%;
+  margin-top: 43.15%;
+  height: 5%;
+  width: 10%;
+}
+
+.wordDiv {
+  position: absolute;
+  text-align: center;
+  width: 20%;
+  margin-top: -59%;
+  margin-left: 29%;
+}
+
+.wordDiv p {
+  color: black;
+}
+
+.wordDiv:hover {
+  cursor: pointer;
+}
+
+#wordImage {
+  width: 40%;
+  margin-left: 5%;
+}
+
+#closeResume {
+  position: absolute;
+  left: 96.7%;
+  top: 1.5%;
+  width: 2.5%;
+  height: 2.5%;
+  opacity: 0%;
+}
+
+#closeResumeWord {
+  position: absolute;
+  left: 117.5%;
+  margin-top: -84%;
+  width: 2%;
+  height: 2.5%;
+  opacity: 0;
+}
+
+#closeResumeWord:hover {
+  cursor: pointer;
+}
+
+#closeResume:hover {
+  cursor: pointer;
+}
+
+#wordResume {
+  position: fixed;
+  margin-top: 1%;
+  margin-left: 20%;
+}
+
+.word {
+  width: 120%;
+}
+
+#resume {
+  position: absolute;
+  overflow-y: scroll;
+  height: 77.6%;
+  margin-top: -71%;
+  margin-left: 10%;
+  width: 109.5%;
+}
+
+#resumeImage {
+  width: 92%;
+}
+
+#berlijn {
+  position: absolute;
+  text-align: center;
+  width: 20%;
+  margin-top: -55%;
+  margin-left: 29%;
+}
+
+#berlijn p {
+  color: black;
+}
+
+#berlijn:hover {
+  cursor: pointer;
+}
+
+#berlijn img {
+  width: 40%;
+  margin-left: 5%;
+}
+
+#cyber {
+  position: absolute;
+  text-align: center;
+  width: 20%;
+  margin-top: -55%;
+  margin-left: 50%;
+}
+
+#cyber p {
+  color: black;
+}
+
+#cyber:hover {
+  cursor: pointer;
+}
+
+#cyber img {
+  width: 40%;
+  margin-left: 5%;
+}
+
+#gluo {
+  position: absolute;
+  text-align: center;
+  width: 20%;
+  margin-top: -55%;
+  margin-left: 70%;
+}
+
+#gluo p {
+  color: black;
+}
+
+#gluo:hover {
+  cursor: pointer;
+}
+
+#gluo img {
+  width: 40%;
+  margin-left: 5%;
+}
+
+#closeSelection {
+  position: absolute;
+  left: 96.7%;
+  top: 1.5%;
+  width: 2.5%;
+  height: 2.5%;
+  opacity: 0%;
+}
+
+#closeSelection:hover {
+  cursor: pointer;
+}
+
+#notePad {
+  width: 80%;
+}
+
+#whitespace {
+  position: absolute;
+  margin-top: -50%;
+  width: 74%;
+  margin-left: 0.5%;
+  height: 88%;
+}
+
+#whitespace iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#closeCyber {
+  position: absolute;
+  left: 77%;
+  top: 1.5%;
+  width: 2.5%;
+  height: 4%;
+  opacity: 0%;
+}
+
+#closeCyber:hover {
+  cursor: pointer;
+}
+
+.berlinInWord {
+  position: fixed;
+  margin-top: 1%;
+  margin-left: 10%;
+}
+
+.berlinInWord img {
+  width: 160%;
+}
+
+.selectionInWord {
+  position: absolute;
+  overflow-y: scroll;
+  height: 76%;
+  margin-top: -93%;
+  margin-left: 19%;
+  width: 140%;
+}
+
+.selectionInWord img {
+  width: 96%;
+  margin-left: -5%;
+}
+
+#closeBerlinWord {
+  position: absolute;
+  left: 157%;
+  top: 1.2%;
+  width: 2.5%;
+  height: 2.5%;
+  opacity: 0%;
+}
+
+#closeBerlinWord:hover {
+  cursor: pointer;
+}
+
+#closeGluoWord {
+  position: absolute;
+  left: 157%;
+  top: 1.2%;
+  width: 2.5%;
+  height: 2.5%;
+  opacity: 0%;
+}
+
+#closeGluoWord {
+  cursor: pointer;
+}
+
+#closeReflectieWord {
+  position: absolute;
+  left: 157%;
+  top: 1.2%;
+  width: 2.5%;
+  height: 2.5%;
+  opacity: 0%;
+}
+
+#closeReflectieWord:hover {
+  cursor: pointer;
+}
