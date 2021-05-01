@@ -369,7 +369,13 @@ p {
   margin-left: 40%;
 }
 
+#portfolioLink {
+  position: absolute;
+  margin-left: 12%;
+  margin-top: -57.5%;
+  text-decoration: none;
+}
 #portfolio {
-  width: 120%;
+  width: 250%;
   margin-left: 41%;
 }
