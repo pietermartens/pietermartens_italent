@@ -13,7 +13,7 @@ export class AppComponent {
   openResumeInWord = true;
   openSelection = true;
   openCyber = true;
-  openBerlinInWord = false;
+  openBerlinInWord = true;
   openGluoInWord = true;
   openEindReflectie = true;
   // tslint:disable-next-line:typedef
