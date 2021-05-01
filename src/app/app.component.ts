@@ -16,6 +16,7 @@ export class AppComponent {
   openBerlinInWord = true;
   openGluoInWord = true;
   openEindReflectie = true;
+  openActivityInAdobe = true;
   // tslint:disable-next-line:typedef
   onMouseOver() {
     this.imgSrc = 'assets/images/XP_start_hover.png';
@@ -47,6 +48,9 @@ export class AppComponent {
   // tslint:disable-next-line:typedef
   changeColorMap3(){
     document.getElementById('mapReflectie').style.background = '#004e98';
+  }
+  changeColorMap4(){
+    document.getElementById('mapAlleActiv').style.background = '#004e98';
   }
   // tslint:disable-next-line:typedef
   changeColorWord(){
@@ -86,6 +90,11 @@ export class AppComponent {
   openMap3(){
     document.getElementById('mapReflectie').style.background = 'none';
     this.openEindReflectie = false;
+  }
+  // tslint:disable-next-line:typedef
+  openMap4(){
+    document.getElementById('mapAlleActiv').style.background = 'none';
+    this.openActivityInAdobe = false;
   }
   // tslint:disable-next-line:typedef
   openResumeWord(){
@@ -131,7 +140,12 @@ export class AppComponent {
   closeGluo(){
     this.openGluoInWord = true;
   }
+  // tslint:disable-next-line:typedef
   closeReflection() {
     this.openEindReflectie = true;
+  }
+  // tslint:disable-next-line:typedef
+  closeAdobe() {
+    this.openActivityInAdobe = true;
   }
 }

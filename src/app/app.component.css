@@ -342,3 +342,30 @@ p {
 #closeReflectieWord:hover {
   cursor: pointer;
 }
+
+#closeAdobe {
+  position: absolute;
+  left: 117.5%;
+  top: 0.5%;
+  width: 2.5%;
+  height: 2.5%;
+  opacity: 0%;
+}
+
+#closeAdobe:hover {
+  cursor: pointer;
+}
+
+#clock {
+  position: fixed;
+  margin-top: 50%;
+  margin-left: 95%;
+  bottom: -0.5%;
+  color: white;
+}
+
+#pdf {
+  width: 130%;
+  margin-left: 40%;
+}
+

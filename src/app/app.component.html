@@ -15,6 +15,10 @@
     <img src="assets\images\map.png" >
     <p id="mapSelection">Selectie<br>activiteiten</p>
   </div>
+  <div class="map-with-text" (click)="changeColorMap4()" (dblclick)="openMap4()">
+    <img id="pdf" src="assets\images\pdf.jpg" >
+    <p id="mapAlleActiv">Alle Activiteiten.pdf</p>
+  </div>
   <div class="map-with-text" (click)="changeColorMap3()" (dblclick)="openMap3()">
     <img src="assets\images\word_icon.jpg" >
     <p id="mapReflectie">Eindreflectie.docx</p>
@@ -89,6 +93,16 @@
   </div>
 </div>
 
+<div [hidden]="openActivityInAdobe" class="berlinInWord">
+  <div id="adobe">
+    <img class="word" src="assets\images\adobe_reader.png">
+    <div class="selectionInWord">
+      <img src="assets\images\selectionInAdobe.png">
+    </div>
+    <button id="closeAdobe" (click)="closeAdobe()"></button>
+  </div>
+</div>
+
 <div [hidden]="openEindReflectie" class="berlinInWord">
   <div id="reflectieInWord">
     <img class="word" src="assets\images\word.png">
@@ -107,4 +121,5 @@
   <img class="taskbar" src="assets\images\XP_taskbar.jpg">
   <img id="startButton" class="start" [src]="imgSrc" (mouseover)="onMouseOver()" (mouseout)="onMouseOut()" (click)="toggleStart()">
   <img class="rightTaskbar" src="assets\images\Right_side_taskbar.jpg">
+  <p id="clock">23:59 PM</p>
 </div>
